@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin Sans');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+
 body{
     font-family: 'Times New Roman', Times, serif;
     margin-left:20px;
@@ -25,7 +28,7 @@ img{
     height: 99%;
     width: 50%;
     top: 0;
-    right: 0;
+    left: 0;
     background-color:rgba(203, 170, 255, 0.8);
 }
 .img-overlay-box{
@@ -37,6 +40,7 @@ img{
     right: 1em;
 }
 .img-overlay-h{
+    font-family: 'Josefin Sans', 'Times New Roman', Times, serif;
     position: relative;
     top: 10%;
     left: 55%;
@@ -45,15 +49,14 @@ img{
     text-align: left;
 }
 .img-overlay-p{
+    font-family: 'Josefin Sans', 'Times New Roman', Times, serif;
     position: relative;
     top: 30%;
     left: 51%;
     transform: translate(-50%, -50%);
-    font-size: 1.7vw;
+    font-size: 2vw;
     text-align: justify;
     text-indent: 2vw;
-    margin-left: 2px;
-    margin-right: 2px;
 }
 
 .img-overlay-link{
@@ -65,12 +68,12 @@ img{
     background-color:rgb(142, 94, 255);
     color: white;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 0% 10px;
+    transition:  0.4s;
 }
 .img-overlay-link:hover{
     background-color:rgb(255, 255, 255);
     color: black;
-    transition: 0.4s;
 }
 .container{
     width: 90%;
@@ -96,9 +99,10 @@ img{
     text-decoration: none;
     border-radius: 2px;
     vertical-align: middle;
+    transition: 0.4s;
 }
 .logo {
-    font-family: 'Cinzel', Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Josefin Sans', Georgia, 'Times New Roman', Times, serif;
 }
 .dropdown{
     float: right;
@@ -114,10 +118,10 @@ img{
     border-radius: 6px;
     margin: 0;
     vertical-align: middle;
+    transition: 0.4s;
 }
 .navbar a:hover, .dropdown:hover .dropbtn{
     background-color: rgba(151, 110, 245, 0.699);
-    transition: 0.4s;
 }
 
 .dropdown-content{
