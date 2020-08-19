@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="stylesheet(1).css">
         <title>Commissions - CompanyName</title>
     </head>
-    <body>
+    <body onload="lastMod()">
         <div class="navbar">
             <a href="http://waclyu.github.io" class="logo">CompanyName</a>
             <div class="dropdown">
@@ -27,5 +27,12 @@
             </div>
         </div>
         </center>
+
+        <script>
+            function lastMod(){
+                var x=document.lastModified;
+                document.getElementById("lastMod").innerHTML = "Last Edited" + x;
+            }
+        </script>
     </body>
 </html>
