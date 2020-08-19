@@ -29,7 +29,7 @@ img{
     width: 50%;
     top: 0;
     left: 0;
-    background-color:rgba(203, 170, 255, 0.8);
+    background-color:rgba(203, 170, 255, 0.7);
 }
 .img-overlay-box{
     background-color: none;
@@ -41,6 +41,7 @@ img{
 }
 .img-overlay-h{
     font-family: 'Josefin Sans', 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
     position: relative;
     top: 10%;
     left: 55%;
@@ -51,7 +52,7 @@ img{
 .img-overlay-p{
     font-family: 'Josefin Sans', 'Times New Roman', Times, serif;
     position: relative;
-    top: 30%;
+    top: 27%;
     left: 51%;
     transform: translate(-50%, -50%);
     font-size: 2vw;
@@ -60,16 +61,18 @@ img{
 }
 
 .img-overlay-link{
+    font-family: 'Oxygen', sans-serif;
     font-size: 2vw;
     position: absolute;
     bottom: 20px;
     left: 2.5%;
     padding: 10px 5px;
-    background-color:rgb(142, 94, 255);
+    background-color:rgba(62, 59, 255, 0.685);
     color: white;
     text-decoration: none;
     border-radius: 0% 10px;
     transition:  0.4s;
+    letter-spacing: 5px;
 }
 .img-overlay-link:hover{
     background-color:rgb(255, 255, 255);
