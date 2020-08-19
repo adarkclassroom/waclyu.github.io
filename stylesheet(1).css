@@ -61,7 +61,7 @@ img{
 }
 
 .img-overlay-link{
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Oxygen', sans-serif !important;
     font-size: 2vw;
     position: absolute;
     bottom: 20px;
